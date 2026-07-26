@@ -1,0 +1,678 @@
+{
+  "webReference": "18801-84575-39398",
+  "policyReference": "6661262/005",
+  "policyNumber": "PV2/00002",
+  "link": "/api/v1/policies/18801-84575-39398",
+  "consentToAutoRenew": true,
+  "endDate": "2026-08-12T22:59:59Z",
+  "expiryDate": "2026-08-12T22:59:59Z",
+  "fsaSaleType": "ADVISED",
+  "inceptionDate": "2025-08-13T10:57:12Z",
+  "policyType": "C_BSYA",
+  "renewalDate": "2026-08-12T23:00:00Z",
+  "sourceOfBusiness": "BrkrOffice",
+  "startDate": "2025-08-13T10:57:12Z",
+  "status": "Confirmed",
+  "remainingUploads": 4,
+  "renewalInformation": {
+    "autoRenewal": false,
+    "previousPaymentMethod": {
+      "type": "PayInFull"
+    }
+  },
+  "eventsRelated": [],
+  "eventCurrent": {
+    "createdByProcess": "NB CONF",
+    "isCurrentEvent": true,
+    "isInEffectNow": true,
+    "link": "/api/v1/policies/18801-84575-39398/events/004",
+    "policyEventReference": "004",
+    "premiumMaxDiscounted": 366,
+    "result": {
+      "calcDetails": {
+        "breakdownLines": [],
+        "rtpFlexedInstalments": false,
+        "rtpFlexedOpexes": false,
+        "rtpStatus": "NotUsed"
+      },
+      "instalmentPlans": [
+        {
+          "aprRateNewInstruction": 12.8,
+          "aprRateStored": 16.8,
+          "depositAmountFee": 0,
+          "depositAmountTotal": 0,
+          "instalmentType": "DD",
+          "interestAmountFlatFee": 0,
+          "interestAmountTotal": 21.96,
+          "interestPercentage": 6.0,
+          "paymentAmountNormal": 38.8,
+          "paymentAmountVaried": 38.76,
+          "paymentCountTotal": 10,
+          "paymentFrequency": "OneMonth",
+          "schemeCode": "DDRNL",
+          "totalPayable": 387.96,
+          "differenceAmountInstalmentsPayInFull": 21.96,
+          "differenceDurationInstalmentsPolicy": 2,
+          "canUseExistingBankDetails": false,
+          "paymentVariedLast": true,
+          "paymentCountNormal": 9,
+          "paymentVariedFirst": false
+        },
+        {
+          "aprRateNewInstruction": 2.0,
+          "aprRateStored": 2.0,
+          "depositAmountFee": 20,
+          "depositAmountTotal": 38.3,
+          "fundingFacilityFee": 50,
+          "instalmentType": "Funded",
+          "interestAmountFlatFee": 100,
+          "interestAmountTotal": 134.77,
+          "interestPercentage": 10.0,
+          "paymentAmountNormal": 48.25,
+          "paymentAmountVaried": 98.22,
+          "paymentCountTotal": 10,
+          "paymentFrequency": "OneMonth",
+          "schemeCode": "ANNSCHEM",
+          "totalPayable": 570.77,
+          "differenceAmountInstalmentsPayInFull": 204.77,
+          "differenceDurationInstalmentsPolicy": 2,
+          "canUseExistingBankDetails": false,
+          "paymentVariedLast": false,
+          "paymentCountNormal": 9,
+          "paymentVariedFirst": true
+        },
+        {
+          "aprRateNewInstruction": 19.6,
+          "aprRateStored": 24.2,
+          "depositAmountFee": 0,
+          "depositAmountTotal": 45,
+          "instalmentType": "Wallet",
+          "interestAmountFlatFee": 0,
+          "interestAmountTotal": 25.68,
+          "interestPercentage": 8.0,
+          "paymentAmountNormal": 38.52,
+          "paymentAmountVaried": 0,
+          "paymentCountTotal": 9,
+          "paymentFrequency": "OneMonth",
+          "schemeCode": "WALLET",
+          "totalPayable": 391.68,
+          "differenceAmountInstalmentsPayInFull": 25.68,
+          "differenceDurationInstalmentsPolicy": 3,
+          "canUseExistingBankDetails": false,
+          "paymentVariedLast": false,
+          "paymentCountNormal": 9,
+          "paymentVariedFirst": false
+        }
+      ],
+      "link": "/api/v1/policies/18801-84575-39398/events/004",
+      "policyEventReference": "004",
+      "premiumDetails": {
+        "feeBroker": 15,
+        "feeInsurer": 15,
+        "iptAmount": 36,
+        "iptRatePercent": 12.0,
+        "loadDiscountBroker": {
+          "amount": 0,
+          "load": false,
+          "percent": 0.0,
+          "amountSigned": 0,
+          "percentSigned": 0.0
+        },
+        "loadDiscountInsurer": {
+          "amount": 0,
+          "load": false,
+          "percent": 0.0,
+          "amountSigned": 0,
+          "percentSigned": 0.0
+        },
+        "nettRated": false,
+        "premiumAlg": 0,
+        "premiumBook": 366,
+        "premiumInsurer": 300,
+        "premiumMaxDiscounted": 366,
+        "totalPayable": 366,
+        "isDecline": false,
+        "maxDiscountedPremium": 366,
+        "premiumProvisional": 300
+      },
+      "resultStatusDetails": {
+        "availableActions": [
+          {
+            "action": "mtaQuoteStore",
+            "info": "Create a change proposal for this policy",
+            "method": "POST",
+            "link": "/api/v1/policies/18801-84575-39398/change-proposals"
+          },
+          {
+            "action": "nonRatingMTA",
+            "info": "Perform a non-rating change on this policy",
+            "method": "POST",
+            "link": "/api/v1/policies/18801-84575-39398"
+          },
+          {
+            "action": "cancellationQuoteStore",
+            "info": "Create a cancellation proposal for this policy",
+            "method": "POST",
+            "link": "/api/v1/policies/18801-84575-39398/cancel-proposals"
+          }
+        ],
+        "availablePayMethods": [],
+        "guaranteedProduct": false,
+        "referredQuote": false,
+        "resultStatus": "TakenUp"
+      },
+      "allOptionalExtensions": {},
+      "endDate": "2026-08-12T22:59:59Z",
+      "rtpAdditionalInformation": [],
+      "grantedDetailsBespoke": {
+        "insurerName": "Aviva",
+        "insurerShortName": "Aviva",
+        "insuranceProductInformationDocs": [],
+        "excessDetails": [],
+        "grantedVoluntaryExcess": 0,
+        "compulsoryExcess": 0,
+        "resultLines": [
+          {
+            "name": "UDT_C_GEN_RESULT:EXCLUDE_S",
+            "type": "Not known - null value."
+          },
+          {
+            "name": "UDT_C_GEN_RESULT:RESULTS_S",
+            "type": "Not known - null value."
+          }
+        ]
+      }
+    },
+    "resultStatus": "TakenUp",
+    "risk": {
+      "affinity": "TOREN2",
+      "endDate": "2026-08-12T22:59:59Z",
+      "frequency": "PlcyAnnual",
+      "policyInceptionDate": "2025-08-12T23:00:00Z",
+      "policyTypeCode": "C_BSYA",
+      "proposer": {
+        "correspondenceAddress": {
+          "abodeType": "House",
+          "addressLine1": "Kings Reach Road",
+          "addressLine2": "Stockport",
+          "country": "GB",
+          "houseNameOrNumber": "Strata House",
+          "postcode": "SK4 2HD",
+          "usage": "Main"
+        },
+        "clientCategory": "VIP",
+        "clientStatus": "Active",
+        "email": "donotreply@cdl.co.uk",
+        "fsaClass": "RETAIL",
+        "id": "6661262",
+        "relationshipToProposer": "Proposer",
+        "telephoneNumbers": [
+          {
+            "number": "0161 4804420",
+            "usage": "Work"
+          }
+        ],
+        "vatRegistered": false,
+        "dateOfBirth": "1970-01-01",
+        "fullTimeOccupation": {
+          "employersBusiness": "001",
+          "empStatus": "Employee",
+          "occupation": "A01"
+        },
+        "gender": "M",
+        "insuranceRefused": false,
+        "maritalStatus": "M",
+        "name": {
+          "forenames": "Jeremy",
+          "salutation": "Mr J P C Soaptest",
+          "surname": "Soaptest",
+          "title": "Mr"
+        },
+        "partTimeOccupation": {
+          "employersBusiness": "186",
+          "empStatus": "Employee",
+          "occupation": "220"
+        },
+        "residentSince": "1970-01-01",
+        "smoker": false,
+        "nonRTAConviction": false
+      },
+      "additionalInsuredPersons": [],
+      "quoteDate": "2025-08-13T10:44:32.482Z",
+      "renewalDate": "2026-08-12T23:00:00Z",
+      "startDate": "2025-08-13T10:57:12Z",
+      "preferredDeliveryMethod": "Email",
+      "userfieldAnswers": [
+        {
+          "questionCode": "CLMKTIN4",
+          "answer": "N"
+        },
+        {
+          "questionCode": "CLMKTIN3",
+          "answer": "N"
+        },
+        {
+          "questionCode": "CLMKTIN2",
+          "answer": "N"
+        },
+        {
+          "questionCode": "CLMKTING",
+          "answer": "Y"
+        },
+        {
+          "questionCode": "EXIST",
+          "answer": "1"
+        },
+        {
+          "questionCode": "VULN_TYP",
+          "answer": "NONE"
+        }
+      ],
+      "bespokeDetails": {
+        "C_BSYA_ADEQUIP": {
+          "C_BSYA_JACKETSET": [
+            {
+              "UDT_C_BSYA_LJACKET:PRICE_C": 100.0,
+              "UDT_C_BSYA_LJACKET:PURCHASE_I": 2025,
+              "UDT_C_BSYA_LJACKET:SUMI_C": 100.0
+            }
+          ],
+          "UDT_C_BSYA_ADEQUIP:LAUNCH_L": "No",
+          "UDT_C_BSYA_ADEQUIP:LIFEJACKET_L": "Yes",
+          "UDT_C_BSYA_ADEQUIP:LIFERAFT_L": "No",
+          "UDT_C_BSYA_ADEQUIP:ROADTRAIL_L": "No"
+        },
+        "C_BSYA_ENGINED": {
+          "C_BSYA_INBOARDSET": [
+            {
+              "UDT_C_BSYA_INBOARD:BHP_I": 100,
+              "UDT_C_BSYA_INBOARD:FUEL_L": "1",
+              "UDT_C_BSYA_INBOARD:MANUFACTURER_S": "VW TDI 100-5 SE",
+              "UDT_C_BSYA_INBOARD:YEAROFMAKE_I": 2008
+            }
+          ],
+          "UDT_C_BSYA_ENGINED:TYPE_L": "1"
+        },
+        "C_BSYA_MOORING": {
+          "UDT_C_BSYA_MOORING:COMMFROM_D": "2025-05-01",
+          "UDT_C_BSYA_MOORING:COMMTO_D": "2025-09-30",
+          "UDT_C_BSYA_MOORING:CRUISE_L": "2",
+          "UDT_C_BSYA_MOORING:HINREG_S": "Reg1234",
+          "UDT_C_BSYA_MOORING:LAIDUP_L": "No",
+          "UDT_C_BSYA_MOORING:LAID_L": "Yes",
+          "UDT_C_BSYA_MOORING:LOCATION_S": "Weymouth Marina",
+          "UDT_C_BSYA_MOORING:TYPEMOOR_S": "marina berthed"
+        },
+        "C_BSYA_TENDERV": {
+          "UDT_C_BSYA_TENDERV:MAINVESSEL_L": "No"
+        },
+        "C_BSYA_USEADDC": {
+          "UDT_C_BSYA_USEADDC:ACCDAM_L": "No",
+          "UDT_C_BSYA_USEADDC:EFFECTS_C": 0.0,
+          "UDT_C_BSYA_USEADDC:RACINGCOV_L": "No",
+          "UDT_C_BSYA_USEADDC:SUMI_C": 0.0,
+          "UDT_C_BSYA_USEADDC:TOYS_L": "No",
+          "UDT_C_BSYA_USEADDC:WATERSKI_L": "No"
+        },
+        "C_BSYA_VESSEL": {
+          "UDT_C_BSYA_VESSEL:BEAM_I": 3,
+          "UDT_C_BSYA_VESSEL:BEAM_L": "2",
+          "UDT_C_BSYA_VESSEL:BUILDTYPE_S": "Arvor",
+          "UDT_C_BSYA_VESSEL:DATESURVEY_D": "2024-08-01",
+          "UDT_C_BSYA_VESSEL:FIREXT_L": "No",
+          "UDT_C_BSYA_VESSEL:HULL_S": "Semi Displacement",
+          "UDT_C_BSYA_VESSEL:LENGTH_I": 7,
+          "UDT_C_BSYA_VESSEL:LENGTH_L": "2",
+          "UDT_C_BSYA_VESSEL:MAXSPEED_I": 12,
+          "UDT_C_BSYA_VESSEL:MAXSPEED_L": "1",
+          "UDT_C_BSYA_VESSEL:MODEL_S": "215 AS",
+          "UDT_C_BSYA_VESSEL:PRICE_C": 17500.0,
+          "UDT_C_BSYA_VESSEL:PROFBUILT_L": "Yes",
+          "UDT_C_BSYA_VESSEL:PURCHASE_D": "2024-08-13",
+          "UDT_C_BSYA_VESSEL:SUMI_C": 20000.0,
+          "UDT_C_BSYA_VESSEL:SURVEY_L": "Yes",
+          "UDT_C_BSYA_VESSEL:TYPE_L": "7",
+          "UDT_C_BSYA_VESSEL:VESSELNAME_S": "Dayzoff",
+          "UDT_C_BSYA_VESSEL:YEARBUILT_I": 2008
+        },
+        "C_GEN_DECL": {
+          "UDT_C_GEN_DECLARE:BANKRUPT_L": "No",
+          "UDT_C_GEN_DECLARE:CONVCONSENT_L": "No",
+          "UDT_C_GEN_DECLARE:HEALTH_L": "No",
+          "UDT_C_GEN_DECLARE:REFUSED_L": "No"
+        },
+        "policyType": "C_BSYA"
+      }
+    },
+    "riskEndDate": "2026-08-12T22:59:59Z",
+    "riskQuoteDate": "2025-08-13T10:44:32.482Z",
+    "riskStartDate": "2025-08-13T10:57:12Z"
+  },
+  "eventInEffectNow": {
+    "createdByProcess": "NB CONF",
+    "isCurrentEvent": true,
+    "isInEffectNow": true,
+    "link": "/api/v1/policies/18801-84575-39398/events/004",
+    "policyEventReference": "004",
+    "premiumMaxDiscounted": 366,
+    "result": {
+      "calcDetails": {
+        "breakdownLines": [],
+        "rtpFlexedInstalments": false,
+        "rtpFlexedOpexes": false,
+        "rtpStatus": "NotUsed"
+      },
+      "instalmentPlans": [
+        {
+          "aprRateNewInstruction": 12.8,
+          "aprRateStored": 16.8,
+          "depositAmountFee": 0,
+          "depositAmountTotal": 0,
+          "instalmentType": "DD",
+          "interestAmountFlatFee": 0,
+          "interestAmountTotal": 21.96,
+          "interestPercentage": 6.0,
+          "paymentAmountNormal": 38.8,
+          "paymentAmountVaried": 38.76,
+          "paymentCountTotal": 10,
+          "paymentFrequency": "OneMonth",
+          "schemeCode": "DDRNL",
+          "totalPayable": 387.96,
+          "differenceAmountInstalmentsPayInFull": 21.96,
+          "differenceDurationInstalmentsPolicy": 2,
+          "canUseExistingBankDetails": false,
+          "paymentVariedLast": true,
+          "paymentCountNormal": 9,
+          "paymentVariedFirst": false
+        },
+        {
+          "aprRateNewInstruction": 2.0,
+          "aprRateStored": 2.0,
+          "depositAmountFee": 20,
+          "depositAmountTotal": 38.3,
+          "fundingFacilityFee": 50,
+          "instalmentType": "Funded",
+          "interestAmountFlatFee": 100,
+          "interestAmountTotal": 134.77,
+          "interestPercentage": 10.0,
+          "paymentAmountNormal": 48.25,
+          "paymentAmountVaried": 98.22,
+          "paymentCountTotal": 10,
+          "paymentFrequency": "OneMonth",
+          "schemeCode": "ANNSCHEM",
+          "totalPayable": 570.77,
+          "differenceAmountInstalmentsPayInFull": 204.77,
+          "differenceDurationInstalmentsPolicy": 2,
+          "canUseExistingBankDetails": false,
+          "paymentVariedLast": false,
+          "paymentCountNormal": 9,
+          "paymentVariedFirst": true
+        },
+        {
+          "aprRateNewInstruction": 19.6,
+          "aprRateStored": 24.2,
+          "depositAmountFee": 0,
+          "depositAmountTotal": 45,
+          "instalmentType": "Wallet",
+          "interestAmountFlatFee": 0,
+          "interestAmountTotal": 25.68,
+          "interestPercentage": 8.0,
+          "paymentAmountNormal": 38.52,
+          "paymentAmountVaried": 0,
+          "paymentCountTotal": 9,
+          "paymentFrequency": "OneMonth",
+          "schemeCode": "WALLET",
+          "totalPayable": 391.68,
+          "differenceAmountInstalmentsPayInFull": 25.68,
+          "differenceDurationInstalmentsPolicy": 3,
+          "canUseExistingBankDetails": false,
+          "paymentVariedLast": false,
+          "paymentCountNormal": 9,
+          "paymentVariedFirst": false
+        }
+      ],
+      "link": "/api/v1/policies/18801-84575-39398/events/004",
+      "policyEventReference": "004",
+      "premiumDetails": {
+        "feeBroker": 15,
+        "feeInsurer": 15,
+        "iptAmount": 36,
+        "iptRatePercent": 12.0,
+        "loadDiscountBroker": {
+          "amount": 0,
+          "load": false,
+          "percent": 0.0,
+          "amountSigned": 0,
+          "percentSigned": 0.0
+        },
+        "loadDiscountInsurer": {
+          "amount": 0,
+          "load": false,
+          "percent": 0.0,
+          "amountSigned": 0,
+          "percentSigned": 0.0
+        },
+        "nettRated": false,
+        "premiumAlg": 0,
+        "premiumBook": 366,
+        "premiumInsurer": 300,
+        "premiumMaxDiscounted": 366,
+        "totalPayable": 366,
+        "isDecline": false,
+        "maxDiscountedPremium": 366,
+        "premiumProvisional": 300
+      },
+      "resultStatusDetails": {
+        "availableActions": [
+          {
+            "action": "mtaQuoteStore",
+            "info": "Create a change proposal for this policy",
+            "method": "POST",
+            "link": "/api/v1/policies/18801-84575-39398/change-proposals"
+          },
+          {
+            "action": "nonRatingMTA",
+            "info": "Perform a non-rating change on this policy",
+            "method": "POST",
+            "link": "/api/v1/policies/18801-84575-39398"
+          },
+          {
+            "action": "cancellationQuoteStore",
+            "info": "Create a cancellation proposal for this policy",
+            "method": "POST",
+            "link": "/api/v1/policies/18801-84575-39398/cancel-proposals"
+          }
+        ],
+        "availablePayMethods": [],
+        "guaranteedProduct": false,
+        "referredQuote": false,
+        "resultStatus": "TakenUp"
+      },
+      "allOptionalExtensions": {},
+      "endDate": "2026-08-12T22:59:59Z",
+      "rtpAdditionalInformation": [],
+      "grantedDetailsBespoke": {
+        "insurerName": "Aviva",
+        "insurerShortName": "Aviva",
+        "insuranceProductInformationDocs": [],
+        "excessDetails": [],
+        "grantedVoluntaryExcess": 0,
+        "compulsoryExcess": 0,
+        "resultLines": [
+          {
+            "name": "UDT_C_GEN_RESULT:EXCLUDE_S",
+            "type": "Not known - null value."
+          },
+          {
+            "name": "UDT_C_GEN_RESULT:RESULTS_S",
+            "type": "Not known - null value."
+          }
+        ]
+      }
+    },
+    "resultStatus": "TakenUp",
+    "risk": {
+      "affinity": "TOREN2",
+      "endDate": "2026-08-12T22:59:59Z",
+      "frequency": "PlcyAnnual",
+      "policyInceptionDate": "2025-08-12T23:00:00Z",
+      "policyTypeCode": "C_BSYA",
+      "proposer": {
+        "correspondenceAddress": {
+          "abodeType": "House",
+          "addressLine1": "Kings Reach Road",
+          "addressLine2": "Stockport",
+          "country": "GB",
+          "houseNameOrNumber": "Strata House",
+          "postcode": "SK4 2HD",
+          "usage": "Main"
+        },
+        "clientCategory": "VIP",
+        "clientStatus": "Active",
+        "email": "donotreply@cdl.co.uk",
+        "fsaClass": "RETAIL",
+        "id": "6661262",
+        "relationshipToProposer": "Proposer",
+        "telephoneNumbers": [
+          {
+            "number": "0161 4804420",
+            "usage": "Work"
+          }
+        ],
+        "vatRegistered": false,
+        "dateOfBirth": "1970-01-01",
+        "fullTimeOccupation": {
+          "employersBusiness": "001",
+          "empStatus": "Employee",
+          "occupation": "A01"
+        },
+        "gender": "M",
+        "insuranceRefused": false,
+        "maritalStatus": "M",
+        "name": {
+          "forenames": "Jeremy",
+          "salutation": "Mr J P C Soaptest",
+          "surname": "Soaptest",
+          "title": "Mr"
+        },
+        "partTimeOccupation": {
+          "employersBusiness": "186",
+          "empStatus": "Employee",
+          "occupation": "220"
+        },
+        "residentSince": "1970-01-01",
+        "smoker": false,
+        "nonRTAConviction": false
+      },
+      "additionalInsuredPersons": [],
+      "quoteDate": "2025-08-13T10:44:32.482Z",
+      "renewalDate": "2026-08-12T23:00:00Z",
+      "startDate": "2025-08-13T10:57:12Z",
+      "preferredDeliveryMethod": "Email",
+      "userfieldAnswers": [
+        {
+          "questionCode": "CLMKTIN4",
+          "answer": "N"
+        },
+        {
+          "questionCode": "CLMKTIN3",
+          "answer": "N"
+        },
+        {
+          "questionCode": "CLMKTIN2",
+          "answer": "N"
+        },
+        {
+          "questionCode": "CLMKTING",
+          "answer": "Y"
+        },
+        {
+          "questionCode": "EXIST",
+          "answer": "1"
+        },
+        {
+          "questionCode": "VULN_TYP",
+          "answer": "NONE"
+        }
+      ],
+      "bespokeDetails": {
+        "C_BSYA_ADEQUIP": {
+          "C_BSYA_JACKETSET": [
+            {
+              "UDT_C_BSYA_LJACKET:PRICE_C": 100.0,
+              "UDT_C_BSYA_LJACKET:PURCHASE_I": 2025,
+              "UDT_C_BSYA_LJACKET:SUMI_C": 100.0
+            }
+          ],
+          "UDT_C_BSYA_ADEQUIP:LAUNCH_L": "No",
+          "UDT_C_BSYA_ADEQUIP:LIFEJACKET_L": "Yes",
+          "UDT_C_BSYA_ADEQUIP:LIFERAFT_L": "No",
+          "UDT_C_BSYA_ADEQUIP:ROADTRAIL_L": "No"
+        },
+        "C_BSYA_ENGINED": {
+          "C_BSYA_INBOARDSET": [
+            {
+              "UDT_C_BSYA_INBOARD:BHP_I": 100,
+              "UDT_C_BSYA_INBOARD:FUEL_L": "1",
+              "UDT_C_BSYA_INBOARD:MANUFACTURER_S": "VW TDI 100-5 SE",
+              "UDT_C_BSYA_INBOARD:YEAROFMAKE_I": 2008
+            }
+          ],
+          "UDT_C_BSYA_ENGINED:TYPE_L": "1"
+        },
+        "C_BSYA_MOORING": {
+          "UDT_C_BSYA_MOORING:COMMFROM_D": "2025-05-01",
+          "UDT_C_BSYA_MOORING:COMMTO_D": "2025-09-30",
+          "UDT_C_BSYA_MOORING:CRUISE_L": "2",
+          "UDT_C_BSYA_MOORING:HINREG_S": "Reg1234",
+          "UDT_C_BSYA_MOORING:LAIDUP_L": "No",
+          "UDT_C_BSYA_MOORING:LAID_L": "Yes",
+          "UDT_C_BSYA_MOORING:LOCATION_S": "Weymouth Marina",
+          "UDT_C_BSYA_MOORING:TYPEMOOR_S": "marina berthed"
+        },
+        "C_BSYA_TENDERV": {
+          "UDT_C_BSYA_TENDERV:MAINVESSEL_L": "No"
+        },
+        "C_BSYA_USEADDC": {
+          "UDT_C_BSYA_USEADDC:ACCDAM_L": "No",
+          "UDT_C_BSYA_USEADDC:EFFECTS_C": 0.0,
+          "UDT_C_BSYA_USEADDC:RACINGCOV_L": "No",
+          "UDT_C_BSYA_USEADDC:SUMI_C": 0.0,
+          "UDT_C_BSYA_USEADDC:TOYS_L": "No",
+          "UDT_C_BSYA_USEADDC:WATERSKI_L": "No"
+        },
+        "C_BSYA_VESSEL": {
+          "UDT_C_BSYA_VESSEL:BEAM_I": 3,
+          "UDT_C_BSYA_VESSEL:BEAM_L": "2",
+          "UDT_C_BSYA_VESSEL:BUILDTYPE_S": "Arvor",
+          "UDT_C_BSYA_VESSEL:DATESURVEY_D": "2024-08-01",
+          "UDT_C_BSYA_VESSEL:FIREXT_L": "No",
+          "UDT_C_BSYA_VESSEL:HULL_S": "Semi Displacement",
+          "UDT_C_BSYA_VESSEL:LENGTH_I": 7,
+          "UDT_C_BSYA_VESSEL:LENGTH_L": "2",
+          "UDT_C_BSYA_VESSEL:MAXSPEED_I": 12,
+          "UDT_C_BSYA_VESSEL:MAXSPEED_L": "1",
+          "UDT_C_BSYA_VESSEL:MODEL_S": "215 AS",
+          "UDT_C_BSYA_VESSEL:PRICE_C": 17500.0,
+          "UDT_C_BSYA_VESSEL:PROFBUILT_L": "Yes",
+          "UDT_C_BSYA_VESSEL:PURCHASE_D": "2024-08-13",
+          "UDT_C_BSYA_VESSEL:SUMI_C": 20000.0,
+          "UDT_C_BSYA_VESSEL:SURVEY_L": "Yes",
+          "UDT_C_BSYA_VESSEL:TYPE_L": "7",
+          "UDT_C_BSYA_VESSEL:VESSELNAME_S": "Dayzoff",
+          "UDT_C_BSYA_VESSEL:YEARBUILT_I": 2008
+        },
+        "C_GEN_DECL": {
+          "UDT_C_GEN_DECLARE:BANKRUPT_L": "No",
+          "UDT_C_GEN_DECLARE:CONVCONSENT_L": "No",
+          "UDT_C_GEN_DECLARE:HEALTH_L": "No",
+          "UDT_C_GEN_DECLARE:REFUSED_L": "No"
+        },
+        "policyType": "C_BSYA"
+      }
+    },
+    "riskEndDate": "2026-08-12T22:59:59Z",
+    "riskQuoteDate": "2025-08-13T10:44:32.482Z",
+    "riskStartDate": "2025-08-13T10:57:12Z"
+  }
+}

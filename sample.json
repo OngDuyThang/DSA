@@ -1,0 +1,303 @@
+{
+  "policyID": "916332306",
+  "policyType": "C_BSTR",
+  "policyStatus": "Confirmed",
+  "fsaSaleType": "ADVISED",
+  "proposerID": "6661262",
+  "proposerName": "Mr J Soaptest",
+  "nameOfInsured": "Mr J Soaptest",
+  "webReference": "08499-18418-27358",
+  "policyReference": "6661262/004",
+  "policyNumber": "PV2/00001",
+  "policyInceptionDate": "2025-07-31T13:46:02+01:00",
+  "policyStartDate": "2025-07-31T13:46:02+01:00",
+  "policyEndDate": "2026-07-30T23:59:59+01:00",
+  "policyRenewalDate": "2026-07-31T00:00:00+01:00",
+  "policyExpiryDate": "2026-07-30T23:59:59+01:00",
+  "partyAffinity": "KYLE",
+  "multibike": false,
+  "sourceOfBusiness": "BrkrOffice",
+  "preferredDeliveryMethod": "Email",
+  "effectiveBusinessEventID": "916334532",
+  "mostRecentBusinessEventID": "916334532",
+  "businessEvents": {
+    "businessEvents": [
+      {
+        "jsonDeserializationType": "GenericBusinessEvent",
+        "id": "916332267",
+        "policyEventReference": "001",
+        "processType": "RiskCreate",
+        "sourceOfBusiness": "BrkrOffice",
+        "quoteDate": "2025-07-31T13:28:34.268+01:00",
+        "startDate": "2025-07-31T13:45:40.531+01:00",
+        "endDate": "2026-07-30T23:59:59+01:00",
+        "renewalDate": "2026-07-31T00:00:00+01:00",
+        "clientPostcode": "SK4 2HD",
+        "clientDateOfBirth": "1970-01-01",
+        "consentForMedicalConditions": "Yes",
+        "consentForConvictions": "Yes",
+        "voluntaryExcess": 0,
+        "compulsoryExcess": 0,
+        "grantedVoluntaryExcess": 0,
+        "riskAffinity": "TOREN2",
+        "frequency": "PlcyAnnual",
+        "namedParties": {
+          "namedParties": [
+            {
+              "nameline": "Mr J Soaptest",
+              "dateOfBirth": "1970-01-01",
+              "postcode": "SK4 2HD",
+              "relToProposer": "Proposer",
+              "starRider": "No",
+              "emailAddresses": {
+                "emailAddresses": ["donotreply@cdl.co.uk"]
+              },
+              "telephoneNumbers": {
+                "telephones": [
+                  {
+                    "areaCode": "0161",
+                    "phoneNumber": "4804420",
+                    "extension": "1234",
+                    "usage": "Work"
+                  }
+                ]
+              },
+              "postalAddresses": {
+                "postalAddresses": [
+                  {
+                    "jsonDeserializationType": "PartyAddress",
+                    "houseNameOrNumber": "Strata House",
+                    "addressLine1": "Kings Reach Road",
+                    "addressLine2": "Stockport",
+                    "postCode": "SK4 2HD",
+                    "abodeType": "House",
+                    "usage": "Main",
+                    "countryCode": "GB"
+                  }
+                ]
+              },
+              "consentForMedicalConditions": "NotKnown",
+              "consentForConvictions": "NotKnown"
+            }
+          ]
+        },
+        "auditInfo": {
+          "created": "2025-07-31T13:45:40.535+01:00",
+          "updated": "2025-07-31T13:45:45.274+01:00"
+        },
+        "guaranteedIndicator": false,
+        "guaranteePeriod": 0,
+        "telematics": false,
+        "referred": false
+      },
+      {
+        "jsonDeserializationType": "GenericBusinessEvent",
+        "id": "916332330",
+        "policyEventReference": "002",
+        "processType": "NB QUO",
+        "sourceOfBusiness": "BrkrOffice",
+        "quoteDate": "2025-07-31T13:28:34.268+01:00",
+        "startDate": "2025-07-31T13:45:40.531+01:00",
+        "endDate": "2026-07-30T23:59:59+01:00",
+        "renewalDate": "2026-07-31T00:00:00+01:00",
+        "status": "TakenUp",
+        "clientPostcode": "SK4 2HD",
+        "clientDateOfBirth": "1970-01-01",
+        "consentForMedicalConditions": "Yes",
+        "consentForConvictions": "Yes",
+        "insurerName": "Dummy Insurer",
+        "insurerCode": "000",
+        "schemeName": "Travel",
+        "schemeCode": "000_0001",
+        "provisionalPremium": 50000,
+        "bookPremium": 58525,
+        "maxDiscountedPremium": 58525,
+        "adjustmentPremium": 0,
+        "adjustmentIPT": 0,
+        "cancellationPremium": 0,
+        "fee": 1500,
+        "insurerFee": 1025,
+        "voluntaryExcess": 0,
+        "compulsoryExcess": 0,
+        "grantedVoluntaryExcess": 0,
+        "riskAffinity": "TOREN2",
+        "frequency": "PlcyAnnual",
+        "namedParties": {
+          "namedParties": [
+            {
+              "nameline": "Mr J Soaptest",
+              "dateOfBirth": "1970-01-01",
+              "postcode": "SK4 2HD",
+              "relToProposer": "Proposer",
+              "starRider": "No",
+              "emailAddresses": {
+                "emailAddresses": ["donotreply@cdl.co.uk"]
+              },
+              "telephoneNumbers": {
+                "telephones": [
+                  {
+                    "areaCode": "0161",
+                    "phoneNumber": "4804420",
+                    "extension": "1234",
+                    "usage": "Work"
+                  }
+                ]
+              },
+              "postalAddresses": {
+                "postalAddresses": [
+                  {
+                    "jsonDeserializationType": "PartyAddress",
+                    "houseNameOrNumber": "Strata House",
+                    "addressLine1": "Kings Reach Road",
+                    "addressLine2": "Stockport",
+                    "postCode": "SK4 2HD",
+                    "abodeType": "House",
+                    "usage": "Main",
+                    "countryCode": "GB"
+                  }
+                ]
+              },
+              "consentForMedicalConditions": "NotKnown",
+              "consentForConvictions": "NotKnown"
+            }
+          ]
+        },
+        "auditInfo": {
+          "created": "2025-07-31T13:45:45.411+01:00",
+          "updated": "2025-07-31T13:45:46.566+01:00"
+        },
+        "guaranteedIndicator": true,
+        "guaranteePeriod": 360,
+        "guaranteeExpiryDate": "2026-07-26",
+        "telematics": false,
+        "referred": false
+      },
+      {
+        "jsonDeserializationType": "GenericBusinessEvent",
+        "id": "916334532",
+        "policyEventReference": "003",
+        "processType": "NB CONF",
+        "sourceOfBusiness": "BrkrOffice",
+        "quoteDate": "2025-07-31T13:28:34.268+01:00",
+        "startDate": "2025-07-31T13:46:02+01:00",
+        "endDate": "2026-07-30T23:59:59+01:00",
+        "renewalDate": "2026-07-31T00:00:00+01:00",
+        "status": "TakenUp",
+        "clientPostcode": "SK4 2HD",
+        "clientDateOfBirth": "1970-01-01",
+        "consentForMedicalConditions": "Yes",
+        "consentForConvictions": "Yes",
+        "insurerName": "Dummy Insurer",
+        "insurerCode": "000",
+        "schemeName": "Travel",
+        "schemeCode": "000_0001",
+        "provisionalPremium": 50000,
+        "bookPremium": 58525,
+        "maxDiscountedPremium": 58525,
+        "adjustmentPremium": 0,
+        "adjustmentIPT": 0,
+        "cancellationPremium": 0,
+        "fee": 1500,
+        "insurerFee": 1025,
+        "voluntaryExcess": 0,
+        "compulsoryExcess": 0,
+        "grantedVoluntaryExcess": 0,
+        "riskAffinity": "TOREN2",
+        "frequency": "PlcyAnnual",
+        "namedParties": {
+          "namedParties": [
+            {
+              "nameline": "Mr J Soaptest",
+              "dateOfBirth": "1970-01-01",
+              "postcode": "SK4 2HD",
+              "relToProposer": "Proposer",
+              "starRider": "No",
+              "emailAddresses": {
+                "emailAddresses": ["donotreply@cdl.co.uk"]
+              },
+              "telephoneNumbers": {
+                "telephones": [
+                  {
+                    "areaCode": "0161",
+                    "phoneNumber": "4804420",
+                    "extension": "1234",
+                    "usage": "Work"
+                  }
+                ]
+              },
+              "postalAddresses": {
+                "postalAddresses": [
+                  {
+                    "jsonDeserializationType": "PartyAddress",
+                    "houseNameOrNumber": "Strata House",
+                    "addressLine1": "Kings Reach Road",
+                    "addressLine2": "Stockport",
+                    "postCode": "SK4 2HD",
+                    "abodeType": "House",
+                    "usage": "Main",
+                    "countryCode": "GB"
+                  }
+                ]
+              },
+              "consentForMedicalConditions": "NotKnown",
+              "consentForConvictions": "NotKnown"
+            }
+          ]
+        },
+        "auditInfo": {
+          "created": "2025-07-31T13:46:05.458+01:00",
+          "updated": "2025-07-31T13:46:06.411+01:00"
+        },
+        "guaranteedIndicator": true,
+        "guaranteePeriod": 360,
+        "guaranteeExpiryDate": "2026-07-26",
+        "telematics": false,
+        "referred": false
+      }
+    ]
+  },
+  "emailAddresses": {
+    "emailAddresses": ["donotreply@cdl.co.uk"]
+  },
+  "telephoneNumbers": {
+    "telephones": [
+      {
+        "areaCode": "0161",
+        "phoneNumber": "4804420",
+        "extension": "1234",
+        "usage": "Work"
+      },
+      {
+        "areaCode": "0161",
+        "phoneNumber": "1234567",
+        "usage": "Home"
+      },
+      {
+        "areaCode": "07988",
+        "phoneNumber": "202567",
+        "usage": "Mobile"
+      }
+    ]
+  },
+  "postalAddresses": {
+    "postalAddresses": [
+      {
+        "jsonDeserializationType": "PartyAddress",
+        "houseNameOrNumber": "Strata House",
+        "addressLine1": "Kings Reach Road",
+        "addressLine2": "Stockport",
+        "postCode": "SK4 2HD",
+        "abodeType": "House",
+        "usage": "Main",
+        "countryCode": "GB"
+      }
+    ]
+  },
+  "autoRenewal": false,
+  "consentToAutorenew": true,
+  "remainingUploads": 4,
+  "telematics": false,
+  "currentAccountBalance": 0,
+  "unpaidRepayments": [],
+  "instalmentBooks": []
+}

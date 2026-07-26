@@ -1,3 +1,5 @@
+// Queue [first->, node->, last->]
+
 class Node {
     constructor(value) {
         this.value = value
