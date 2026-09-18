@@ -1,0 +1,17 @@
+PREFIX SUM:
+303 IMPORTANT: range-sum-query-immutable 
+525 IMPORTANT: contiguous-array
+560 IMPORTANT: subarray-sum-equals-k
+930: binary-subarrays-with-sum
+974: subarray-sums-divisible-by-k
+523: continuous-subarray-sum
+
+TWO POINTER:
+344 IMPORTANT: reverse-string
+
+OVERLAP INTERVAL:
+228 (range mindset): summary-ranges
+56 IMPORTANT (work around comparison, anchor collect merge overlap): merge-intervals
+57 IMPORTANT (work around comparison, but handle opposite if, complex merge condition in else): insert-interval
+435 IMPORTANT (work around comparison, anchor placed at smaller end, simulate removing bigger end): non-overlapping-intervals
+253 IMPORTANT (does not treat intervals like objects, it treat all intervals as a single timeline, start +1 end -1): meeting-rooms-ii
